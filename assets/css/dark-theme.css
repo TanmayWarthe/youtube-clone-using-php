@@ -1,0 +1,68 @@
+:root {
+    --bg-primary: #0f0f0f;
+    --bg-secondary: #1f1f1f;
+    --text-primary: #ffffff;
+    --text-secondary: #aaaaaa;
+    --hover-bg: #272727;
+    --border-color: #303030;
+}
+
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+body {
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Update container backgrounds */
+.account-container,
+.upload-container,
+.video-container,
+.dropdown-menu,
+nav {
+    background: var(--bg-secondary);
+}
+
+/* Update form elements */
+input,
+textarea,
+select {
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    border-color: var(--border-color);
+}
+
+/* Update buttons */
+button {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Update stat items */
+.stat-item {
+    background: var(--bg-primary);
+}
+
+/* Update video cards */
+.video-card:hover {
+    background: var(--hover-bg);
+    border-radius: 12px;
+}
+
+/* Update dropdown items */
+.dropdown-item:hover {
+    background: var(--hover-bg);
+}
+
+/* Update search bar */
+.search-bar input,
+.search-bar button {
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    border-color: var(--border-color);
+}
+
+.search-bar button:hover {
+    background: var(--hover-bg);
+}
